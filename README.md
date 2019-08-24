@@ -12,7 +12,7 @@ please make sure that ganache-cli runs. do `npm run ganache`
 ### View ERC721 houses:
 * contract address: 0x2CF1148abd1c1476b03F899BE8441f859f618D81
 * contract ABI: check out `/build/RealEstateERC721Token.json`
-* [Storefront](https://rinkeby.opensea.io/assets/unidentified-contract-115)
+* [Storefront](https://rinkeby.opensea.io/assets/unidentified-contract-115?range%5Btoken_id%5D%5Bmax%5D=41)
 * [House 1](https://rinkeby.opensea.io/assets/0x2cf1148abd1c1476b03f899be8441f859f618d81/1)
 * [House 2](https://rinkeby.opensea.io/assets/0x2cf1148abd1c1476b03f899be8441f859f618d81/2)
 * [House 3](https://rinkeby.opensea.io/assets/0x2cf1148abd1c1476b03f899be8441f859f618d81/3)
