@@ -5,7 +5,12 @@
   "main": "index.js",
   "scripts": {
     "dev": "lite-server",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "compile": "truffle compile",
+    "ganache": "ganache-cli -p 7545 -a 10 -m \"uniform ready hedgehog frost you light fiber brisk hundred regular current emotion\"",
+    "test": "truffle test eth-contracts/test/TestERC721Mintable.js",
+    "test-my-verifier": "truffle test eth-contracts/test/TestSquareVerifier.js",
+    "test-solution-verifier": "truffle test eth-contracts/test/TestSolnSquareVerifier.js",
+    "migrate-rinkeby": "truffle migrate -f 2 --reset --network rinkeby"
   },
   "keywords": [],
   "author": "pk <pkrasam@gmail.com> (https://ipfs.infura.io/ipfs/QmSXiR9Khm3yo1J67nUopvVBxFJ8YGN2fUGZ34Etr3m92x/)",
@@ -14,8 +19,12 @@
     "lite-server": "2.4.0"
   },
   "dependencies": {
+    "ganache-core": "^2.7.0",
     "openzeppelin-solidity": "^2.2.0",
     "solc": "^0.5.2",
-    "solc-js": "^0.5.2"
+    "solc-js": "^0.5.2",
+    "truffle": "^5.0.2",
+    "truffle-hdwallet-provider": "^1.0.17",
+    "web3": "^1.0.0-beta.34"
   }
 }
